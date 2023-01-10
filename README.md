@@ -24,7 +24,7 @@ Do not forget to call `plt.show()` at the end (and optionnaly some `plt.figure()
 
 ## Unknown module `tqdm`
 This module is just for a loadbar and is not essential to the simulations.
-You can comment the following lines in `run_simulations.py` if needed:
+You can comment the following lines in `run_simulation.py` if needed:
 * 8: `from tqdm import tqdm`
 * 134: `pbar = tqdm(total=N, desc=filename) #loadbar`
 * 139: `pbar.update(1)`
